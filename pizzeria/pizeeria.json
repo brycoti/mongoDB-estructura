@@ -1,0 +1,121 @@
+{
+  "clientes": [
+    {
+      "_id": "a1b2c3d4e5f6g7h8i9j0",
+      "Nombre": "Pau",
+      "Apellido1": "García",
+      "Apellido2": "López",
+      "Telefono": "+34 932 123 456",
+      "direccion": {
+        "Direccion": "Carrer de la Marina, 100",
+        "CodigoPostal": "08013",
+        "Localidad": "Barcelona",
+        "Provincia": "Barcelona"
+      }
+    },
+    {
+      "_id": "j0i9h8g7f6e5d4c3b2a1",
+      "Nombre": "Marta",
+      "Apellido1": "Giménez",
+      "Apellido2": "Fernández",
+      "Telefono": "+34 932 654 321",
+      "direccion": {
+        "Direccion": "Gran Via de les Corts Catalanes, 500",
+        "CodigoPostal": "08015",
+        "Localidad": "Barcelona",
+        "Provincia": "Barcelona"
+      }
+    }
+  ],
+
+  "tiendas": [
+    {
+      "_id": "z0y9x8w7v6u5t4s3r2q1",
+      "Direccion": "Avinguda Diagonal, 200",
+      "CodigoPostal": "08018",
+      "Localidad": "Barcelona",
+      "Provincia": "Barcelona",
+      "empleados": [
+        {
+          "ID_Empleado": "p0o9i8u7y6t5r4e3w2q1",
+          "Nombre": "Carlos",
+          "Apellido1": "Sánchez",
+          "Apellido2": "Ortiz",
+          "NIF": "ABCDE1234W",
+          "Telefono": "+34 933 123 789",
+          "Posicion": "cocinero"
+        },
+        {
+          "ID_Empleado": "q1w2e3r4t5y6u7i8o9p0",
+          "Nombre": "Lucía",
+          "Apellido1": "Navarro",
+          "Apellido2": "Vila",
+          "NIF": "FGHIJ5678Z",
+          "Telefono": "+34 933 987 654",
+          "Posicion": "repartidor"
+        }
+      ]
+    }
+  ],
+
+  "pedidos": [
+    {
+      "_id": "k1l2m3n4o5p6q7r8s9t0",
+      "FechaHora": "2023-04-25 19:00:00",
+      "Tipo": "domicilio",
+      "ID_Cliente": "a1b2c3d4e5f6g7h8i9j0",
+      "ID_Tienda": "z0y9x8w7v6u5t4s3r2q1",
+      "PrecioTotal": 20.00,
+      "detalles": [
+        {
+          "ID_Producto": "f50a682d12d94c2f85b3c620",
+          "Cantidad": 2
+        }
+      ],
+      "reparto": {
+        "FechaHora_Entrega": "2023-04-25 19:45:00",
+        "empleados_ID_Empleado": "q1w2e3r4t5y6u7i8o9p0"
+      }
+    }
+  ],
+
+  "productos": [
+    {
+      "_id": "f50a682d12d94c2f85b3c620",
+      "Nombre": "Pizza Margherita",
+      "Descripcion": "Una pizza clásica con tomates y queso.",
+      "Imagen": "path/to/margherita.jpg",
+      "Precio": 10.00,
+      "tipo_producto": "pizza",
+      "categoria_producto": "f50a682d12d94c2f85b3c621"
+    },
+    {
+      "_id": "f50a682d12d94c2f85b3c622",
+      "Nombre": "Pizza Barbacoa",
+      "Descripcion": "Pizza con salsa barbacoa, pollo y cebolla.",
+      "Imagen": "path/to/barbacoa.jpg",
+      "Precio": 12.00,
+      "tipo_producto": "pizza",
+      "categoria_producto": "f50a682d12d94c2f85b3c623"
+    },
+    {
+      "_id": "f50a682d12d94c2f85b3c624",
+      "Nombre": "Hamburguesa Clásica",
+      "Descripcion": "Hamburguesa con carne, queso, lechuga y tomate.",
+      "Imagen": "path/to/hamburguesa.jpg",
+      "Precio": 8.00,
+      "tipo_producto": "hamburguesa"
+    }
+  ],
+
+  "categorias": [
+    {
+      "_id": "f50a682d12d94c2f85b3c621",
+      "Nombre": "vegetariana"
+    },
+    {
+      "_id": "f50a682d12d94c2f85b3c623",
+      "Nombre": "carnívora"
+    }
+  ]
+}

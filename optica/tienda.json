@@ -1,0 +1,82 @@
+{
+  "tienda": {
+     "proveedores": [
+      {
+        "_id": "5f4d5f1e8f1fb347c8c8af04",
+        "nombre": "OpticsPro",
+        "fax": "913456789",
+        "nif": "A12345678",
+        "direccion": {
+          "_id": "5f4d5f1d8f1fb347c8c8af01",
+          "calle": "Diagonal",
+          "ciudad": "Barcelona",
+          "codigo_postal": "08013",
+          "pais": "España"
+        }
+      }
+    ],
+    "gafas": [
+      {
+        "_id": "5f4d5f1e8f1fb347c8c8af05",
+        "marca": "RayBan",
+        "graduacion_lente1": -1.25,
+        "graduacion_lente2": -1.00,
+        "tipo_montura": "metalica",
+        "color_montura": "negro",
+        "color_lente1": "verde",
+        "color_lente2": "verde",
+        "precio": 129.99,
+        "proveedor": {
+          "_id": "5f4d5f1e8f1fb347c8c8af04",
+          "nombre": "OpticsPro"
+        }
+      }
+    ],
+    "clientes": [
+      {
+        "_id": "5f4d5f1e8f1fb347c8c8af02",
+        "nombre": "Carlos",
+        "apellido1": "Gómez",
+        "apellido2": "Sánchez",
+        "telefono": "612345678",
+        "correo_electronico": "carlos.gomez@example.com",
+        "fecha_registro": "2023-01-15",
+        "cliente_recomendador": null,
+        "direccion": {
+          "_id": "5f4d5f1d8f1fb347c8c8af00",
+          "calle": "Gran Vía",
+          "ciudad": "Madrid",
+          "codigo_postal": "28013",
+          "pais": "España"
+        }
+      }
+    ],
+    "empleados": [
+      {
+        "_id": "5f4d5f1e8f1fb347c8c8af03",
+        "nombre": "Ana",
+        "apellido1": "Pérez",
+        "apellido2": "López"
+      }
+    ],
+    
+    "ventas": [
+      {
+        "_id": "5f4d5f1e8f1fb347c8c8af06",
+        "fecha_venta": "2023-02-01",
+        "gafa": {
+          "_id": "5f4d5f1e8f1fb347c8c8af05",
+          "marca": "RayBan"
+        },
+        "empleado": {
+          "_id": "5f4d5f1e8f1fb347c8c8af03",
+          "nombre": "Ana"
+        },
+        "cliente": {
+          "_id": "5f4d5f1e8f1fb347c8c8af02",
+          "nombre": "Carlos"
+        }
+      }
+    ]
+  }
+}
