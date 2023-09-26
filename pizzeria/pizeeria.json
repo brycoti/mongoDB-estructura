@@ -37,7 +37,6 @@
       "Provincia": "Barcelona",
       "empleados": [
         {
-          "ID_Empleado": "p0o9i8u7y6t5r4e3w2q1",
           "Nombre": "Carlos",
           "Apellido1": "Sánchez",
           "Apellido2": "Ortiz",
@@ -46,7 +45,6 @@
           "Posicion": "cocinero"
         },
         {
-          "ID_Empleado": "q1w2e3r4t5y6u7i8o9p0",
           "Nombre": "Lucía",
           "Apellido1": "Navarro",
           "Apellido2": "Vila",
@@ -73,8 +71,7 @@
         }
       ],
       "reparto": {
-        "FechaHora_Entrega": "2023-04-25 19:45:00",
-        "empleados_ID_Empleado": "q1w2e3r4t5y6u7i8o9p0"
+        "FechaHora_Entrega": "2023-04-25 19:45:00"
       }
     }
   ],
@@ -87,7 +84,7 @@
       "Imagen": "path/to/margherita.jpg",
       "Precio": 10.00,
       "tipo_producto": "pizza",
-      "categoria_producto": "f50a682d12d94c2f85b3c621"
+      "categoria_producto": "vegetariana"
     },
     {
       "_id": "f50a682d12d94c2f85b3c622",
@@ -96,7 +93,7 @@
       "Imagen": "path/to/barbacoa.jpg",
       "Precio": 12.00,
       "tipo_producto": "pizza",
-      "categoria_producto": "f50a682d12d94c2f85b3c623"
+      "categoria_producto": "carnivora"
     },
     {
       "_id": "f50a682d12d94c2f85b3c624",
@@ -106,16 +103,6 @@
       "Precio": 8.00,
       "tipo_producto": "hamburguesa"
     }
-  ],
-
-  "categorias": [
-    {
-      "_id": "f50a682d12d94c2f85b3c621",
-      "Nombre": "vegetariana"
-    },
-    {
-      "_id": "f50a682d12d94c2f85b3c623",
-      "Nombre": "carnívora"
-    }
   ]
+
 }
