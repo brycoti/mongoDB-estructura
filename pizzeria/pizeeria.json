@@ -27,7 +27,26 @@
       }
     }
   ],
-
+  "empleados": [
+    {
+      "_id": "l1m2n3o4p5q6r7s8t9u0",
+      "Nombre": "Carlos",
+      "Apellido1": "Sánchez",
+      "Apellido2": "Ortiz",
+      "NIF": "ABCDE1234W",
+      "Telefono": "+34 933 123 789",
+      "Posicion": "cocinero"
+    },
+    {
+      "_id": "u0t9s8r7q6p5o4n3m2l1",
+      "Nombre": "Lucía",
+      "Apellido1": "Navarro",
+      "Apellido2": "Vila",
+      "NIF": "FGHIJ5678Z",
+      "Telefono": "+34 933 987 654",
+      "Posicion": "repartidor"
+    }
+  ],
   "tiendas": [
     {
       "_id": "z0y9x8w7v6u5t4s3r2q1",
@@ -35,27 +54,9 @@
       "CodigoPostal": "08018",
       "Localidad": "Barcelona",
       "Provincia": "Barcelona",
-      "empleados": [
-        {
-          "Nombre": "Carlos",
-          "Apellido1": "Sánchez",
-          "Apellido2": "Ortiz",
-          "NIF": "ABCDE1234W",
-          "Telefono": "+34 933 123 789",
-          "Posicion": "cocinero"
-        },
-        {
-          "Nombre": "Lucía",
-          "Apellido1": "Navarro",
-          "Apellido2": "Vila",
-          "NIF": "FGHIJ5678Z",
-          "Telefono": "+34 933 987 654",
-          "Posicion": "repartidor"
-        }
-      ]
+      "empleados": ["l1m2n3o4p5q6r7s8t9u0", "u0t9s8r7q6p5o4n3m2l1"]
     }
   ],
-
   "pedidos": [
     {
       "_id": "k1l2m3n4o5p6q7r8s9t0",
@@ -75,7 +76,6 @@
       }
     }
   ],
-
   "productos": [
     {
       "_id": "f50a682d12d94c2f85b3c620",
@@ -104,5 +104,4 @@
       "tipo_producto": "hamburguesa"
     }
   ]
-
 }
